@@ -1,3 +1,9 @@
+"""
+Factorial Calculator
+
+This script calculates the factorial of a given non-negative integer.
+"""
+
 def get_non_negative_integer() -> int:
     """
     Obtains a non-negative integer input from the user.
@@ -10,8 +16,7 @@ def get_non_negative_integer() -> int:
             num = int(input("Enter a non-negative integer: "))
             if num >= 0:
                 return num
-            else:
-                print("Invalid input. Please enter a non-negative integer.")
+            print("Invalid input. Please enter a non-negative integer.")
         except ValueError:
             print("Invalid input. Please enter a valid integer.")
 
